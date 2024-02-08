@@ -21,7 +21,7 @@ import io.qameta.allure.Story;*/
 public class Pharmacy_Superadmin extends StartBrowser
 {
 	
-	String excelfile = "D:\\Automation_2024\\Updated-Mamatva-main\\ExcelTestInputData\\Mamatva.xlsx";
+	String excelfile = "C:\ProgramData\Jenkins\.jenkins\workspace\ZAP_Automation2.0\ExcelTestInputData\Mamatva.xlsx";
 	String xlsheet = "Superadmin";
 	
 	//Add Admin in SuperAdmin
