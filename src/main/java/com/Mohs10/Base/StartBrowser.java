@@ -51,9 +51,9 @@ public class StartBrowser {
 	 public static ExtentTest parentTest;
 	 public static ExtentTest childTest;
 	 ExtentSparkReporter sparkReporter;
-	 static final String ZAP_PROXY_ADDRESS = "localhost";
+	 static final String ZAP_PROXY_ADDRESS = "192.168.0.117";
 	 static final int ZAP_PROXY_PORT = 8080;
-	 static final String ZAP_API_KEY = "1eq8gn72ermkelgkb9vub8c4mn";
+	 static final String ZAP_API_KEY = "ph35lal49kej8u47p6vd00gbpb";
 	 private ClientApi api;
 	 ChromeOptions options ;
 
