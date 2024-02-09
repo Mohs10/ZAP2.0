@@ -39,7 +39,7 @@ public class PDFReportTest extends StartBrowser {
 		List <String> skippedText = new ArrayList<>();
 		List <String> skippedTime = new ArrayList<>();
 
-		String excelfile = "‪ExcelTestInputData\\NEWPDF1.xlsx";
+		String excelfile = "‪ExcelTestInputData/NEWPDF1.xlsx";
 		String excelsheet = "PDFVALUES";
 		String ProjectN = XLUtils.getStringCellData(excelfile, excelsheet, 1,3);
 		String TesterN = XLUtils.getStringCellData(excelfile, excelsheet, 1,2);
