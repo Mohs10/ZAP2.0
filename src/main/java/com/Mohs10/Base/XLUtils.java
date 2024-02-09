@@ -17,7 +17,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class XLUtils
 {
-	public static String path = System.getProperty("user.dir") + "\\ExcelTestInputData\\TestData.xlsx";
+	public static String path = System.getProperty("user.dir") + "\\ExcelTestInputData\\Mamatva.xlsx";
 
 	public static FileInputStream fi = null;
 	public static FileOutputStream fo = null;
