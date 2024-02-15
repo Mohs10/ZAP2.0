@@ -7,7 +7,7 @@ public class PharmacySuperadminPage {
 	
 	//Login to the Mamatva Superadmin
 
-	    public static By Memailid = By.xpath("//input[@id='email']"); 
+	    public static By Memailid = By.id("email");
 	    public static By Mpwd = By.xpath("//input[@id='password']");
 	    public static By Mloginbtn = By.xpath("//input[@value='LOGIN']");
 	
