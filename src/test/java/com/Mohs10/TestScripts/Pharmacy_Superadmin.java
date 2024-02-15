@@ -55,11 +55,11 @@ public class Pharmacy_Superadmin extends StartBrowser
 		
 		String Memailid  = XLUtils.getStringCellData(excelfile, xlsheet, 2, 0);//(rows, columns) 
 		String Mpwd      = XLUtils.getStringCellData(excelfile, xlsheet, 2, 1);
-		String Location  = XLUtils.getStringCellData(excelfile, xlsheet, 2, 2);
+		//String Location  = XLUtils.getStringCellData(excelfile, xlsheet, 2, 2);
 		
 		
 		
-		hm1.MamatvaLogin(Memailid, Mpwd, Location); 
+		hm1.MamatvaLogin(Memailid, Mpwd); 
 		
 		
 		Thread.sleep(5000);
