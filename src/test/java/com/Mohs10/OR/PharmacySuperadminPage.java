@@ -9,7 +9,7 @@ public class PharmacySuperadminPage {
 
 	    public static By Memailid = By.id("email");
 	    public static By Mpwd = By.xpath("//input[@id='password']");
-	    public static By Mloginbtn = By.xpath("//input[@value='LOGIN']");
+	    public static By Mloginbtn = By.className("submit");;
 	
 	
 	//Add Admin 
